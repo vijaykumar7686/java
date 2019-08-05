@@ -1,0 +1,12 @@
+#a
+n1=int(input())
+temp=n1
+r=0
+while(n1>0):
+  s=n1%10
+  r=r*10+s
+  n1=n1//10
+if(temp==r):
+  print("yes")
+else:
+  print("no")
