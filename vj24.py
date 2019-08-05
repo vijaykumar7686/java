@@ -1,5 +1,5 @@
 #a
-num1=int(input())
-lst=list(map(int,input().split()))[:num1]
+num=int(input())
+lst=list(map(int,input().split()))[:num]
 lst.sort()
 print(*lst,end=" ")
