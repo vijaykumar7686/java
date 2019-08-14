@@ -1,4 +1,4 @@
-#a
+#s
 r=int(input())
 i=1
 while r!=0:
